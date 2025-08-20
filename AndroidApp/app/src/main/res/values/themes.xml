@@ -1,0 +1,36 @@
+<resources>
+    <style name="AppTheme" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Brand -->
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="colorOnPrimary">@color/color_on_primary</item>
+        <item name="colorPrimaryContainer">@color/color_primary_container</item>
+        <item name="colorOnPrimaryContainer">@color/color_on_primary_container</item>
+
+        <!-- Hintergrund / Text -->
+        <item name="android:colorBackground">@color/color_background</item>
+        <item name="colorOnBackground">@color/color_on_background</item>
+
+        <!-- Rahmenfarbe -->
+        <item name="colorOutline">@color/color_outline</item>
+
+        <!-- Button Defaults -->
+        <item name="materialButtonStyle">@style/Widget.Brevet.Button.Primary</item>
+        <item name="textInputStyle">@style/Widget.Brevet.TextInput</item>
+    </style>
+
+    <!-- Buttons im Mockup-Style -->
+    <style name="Widget.Brevet.Button.Primary" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@color/color_button_bg</item>
+        <item name="android:textColor">@color/color_button_text</item>
+        <item name="cornerRadius">8dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- TextInput mit roter Outline -->
+    <style name="Widget.Brevet.TextInput" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/color_outline</item>
+        <item name="boxStrokeWidth">1dp</item>
+        <item name="boxStrokeWidthFocused">2dp</item>
+        <item name="hintTextColor">@color/color_outline</item>
+    </style>
+</resources>

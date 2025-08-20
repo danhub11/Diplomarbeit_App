@@ -1,0 +1,25 @@
+<resources>
+    <!-- Titel -->
+    <string name="settings_title">Einstellungen</string>
+
+    <!-- Sektionen -->
+    <string name="settings_section_language">Sprache</string>
+    <string name="settings_section_features">App-Einstellungen</string>
+
+    <!-- Sprache -->
+    <string name="settings_language_label">App-Sprache</string>
+    <string name="settings_lang_applied">Sprache angewendet</string>
+
+    <!-- Toggles -->
+    <string name="settings_notif">Benachrichtigungen aktivieren</string>
+    <string name="settings_offline_beta">Offline-Modus (Beta)</string>
+    <string name="settings_start_favs">App mit „Meine Brevets“ starten</string>
+
+    <!-- Konto -->
+    <string name="settings_logout_title">Konto</string>
+    <string name="settings_keep_signed_in">Angemeldet bleiben</string>
+    <string name="settings_keep_signed_in_on">Automatisches Anmelden aktiviert</string>
+    <string name="settings_keep_signed_in_off">Automatisches Anmelden deaktiviert</string>
+    <string name="settings_logout_btn">Abmelden</string>
+    <string name="settings_logout_done">Abgemeldet</string>
+</resources>

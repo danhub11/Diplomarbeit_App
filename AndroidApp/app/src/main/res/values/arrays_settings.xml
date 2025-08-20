@@ -1,0 +1,15 @@
+<resources>
+    <!-- Labels & zugehörige Tags (Positionen müssen übereinstimmen) -->
+    <string-array name="settings_language_labels">
+        <item>Systemsprache</item>
+        <item>Deutsch</item>
+        <item>Englisch</item>
+    </string-array>
+
+    <!-- "system" = Gerätesprache; sonst BCP-47 Sprach-Tags -->
+    <string-array name="settings_language_tags">
+        <item>system</item>
+        <item>de</item>
+        <item>en</item>
+    </string-array>
+</resources>
