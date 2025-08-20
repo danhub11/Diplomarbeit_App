@@ -1,0 +1,18 @@
+<resources>
+    <!-- Status (laut Mockup auf Englisch belassen) -->
+    <string name="status_open">Aktiv</string>
+    <string name="status_ended">Inaktiv</string>
+
+    <!-- Labels -->
+    <string name="label_my_brevets">Meine Brevets</string>
+    <string name="label_wish_date">Wunschtermin</string>
+    <string name="label_with_medal">Mit Medaille</string>
+
+    <!-- Übersicht/Filter -->
+    <string name="title_brevets_year">Brevets %1$d</string>
+    <string name="toast_no_brevets">Keine Brevets gefunden (%1$d).</string>
+
+    <!-- Fehler -->
+    <string name="toast_load_failed_http">Laden fehlgeschlagen: HTTP %1$d</string>
+    <string name="toast_load_failed_msg">Laden fehlgeschlagen: %1$s</string>
+</resources>

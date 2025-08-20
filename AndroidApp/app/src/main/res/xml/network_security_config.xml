@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- Erlaubt Klartext (http) zur VM-IP -->
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="false">10.211.55.3</domain>
+    </domain-config>
+</network-security-config>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Hintergrund und Text -->
+    <color name="color_background">#FFF8F6</color> <!-- sehr helles Beige/Rosa -->
+    <color name="color_on_background">#3B2B29</color> <!-- dunkles Braun für Überschriften/Text -->
+
+    <!-- Primärfarben (Brand-Rot) -->
+    <color name="color_primary">#9C0700</color> <!-- kräftiges Rot -->
+    <color name="color_on_primary">#FFFFFF</color>
+    <color name="color_primary_container">#FFDAD4</color> <!-- leichtes Rot/Pink für Rahmen -->
+    <color name="color_on_primary_container">#5B0000</color>
+
+    <!-- Buttons -->
+    <color name="color_button_bg">#9C0700</color>
+    <color name="color_button_text">#FFFFFF</color>
+
+    <!-- Sekundärfarben -->
+    <color name="color_secondary">#5D5F5F</color>
+    <color name="color_on_secondary">#FFFFFF</color>
+
+    <!-- Statusfarben -->
+    <color name="color_status_open_bg">#156B37</color> <!-- Grün -->
+    <color name="color_status_open_text">#FFFFFF</color>
+    <color name="color_status_ended_bg">#9C0700</color> <!-- Rot -->
+    <color name="color_status_ended_text">#FFFFFF</color>
+
+    <!-- Outline / Rahmen -->
+    <color name="color_outline">#9C0700</color>
+</resources>

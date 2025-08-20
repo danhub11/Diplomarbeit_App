@@ -1,0 +1,111 @@
+<resources>
+    <!-- App -->
+    <string name="app_name">Randonneure</string>
+
+    <!-- Auth / Login -->
+    <string name="login_title">Anmelden</string>
+    <string name="login">Einloggen</string>
+    <string name="login_btn">Einloggen</string>
+    <string name="create_account">Account anlegen</string>
+    <string name="forgot_password">Passwort vergessen?</string>
+    <string name="remember_me">Angemeldet bleiben</string>
+
+    <!-- Felder / Labels -->
+    <string name="hint_id">Generierte Id</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Passwort</string>
+    <string name="email_label">E-Mail</string>
+    <string name="password_label">Passwort</string>
+
+    <!-- Fehler & Status -->
+    <string name="error_email">Bitte gültige E-Mail eingeben</string>
+    <string name="error_password">Passwort darf nicht leer sein</string>
+    <string name="error_password_mismatch">Passwörter stimmen nicht überein</string>
+    <string name="error_empty_fields">Bitte Login-ID/E-Mail und Passwort eingeben</string>
+    <string name="login_success">Login erfolgreich</string>
+    <string name="login_failed">Login fehlgeschlagen: %1$s</string>
+    <string name="register_failed">Registrierung fehlgeschlagen: %1$s</string>
+    <string name="loading">Lade…</string>
+    <string name="hello_name">Hallo %1$s</string>
+    <string name="unknown">Unbekannt</string>
+
+    <!-- Dashboard / Menü -->
+    <string name="brevet_title">Brevets Übersicht</string>
+    <string name="menu_favourites">Favouriten</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu">Menü</string>
+
+    <!-- Sprache -->
+    <string name="language">Sprache</string>
+    <string name="de_label">Deutsch</string>
+    <string name="en_label">Englisch</string>
+
+    <!-- Check-in/out -->
+    <string name="check_in">Angemeldet</string>
+    <string name="check_out">Abgemeldet</string>
+
+    <!-- Labels -->
+    <string name="label_date">Datum:</string>
+    <string name="label_distance">Distanz:</string>
+
+    <!-- Städte -->
+    <string name="city_moedling">Mödling</string>
+    <string name="city_krems">Krems</string>
+
+    <!-- Distanzen -->
+    <string name="dist_300km">300 km</string>
+    <string name="dist_200km">200 km</string>
+
+    <!-- Status -->
+    <string name="status_active">Aktiv</string>
+    <string name="status_inactive">Inaktiv</string>
+
+    <!-- Beispiel-Daten -->
+    <string name="date_25_may_2024">25. Mai 2024</string>
+    <string name="date_10_feb_2024">10. Feb. 2024</string>
+
+    <!-- Register -->
+    <string name="first_name">Vorname</string>
+    <string name="last_name">Nachname</string>
+    <string name="birth_date_hint">Geburtsdatum (yyyy-MM-dd)</string>
+    <string name="address">Adresse</string>
+    <string name="plz">PLZ</string>
+    <string name="city">Ort</string>
+    <string name="country">Land</string>
+    <string name="phone">Telefon</string>
+    <string name="repeat_password">Passwort wiederholen</string>
+    <string name="cancel">Abbrechen</string>
+
+    <string name="registering">Wird angelegt…</string>
+    <string name="register_success">Account angelegt. Login-ID wurde per E-Mail gesendet.</string>
+    <string name="register_exists_treated_ok">Account existiert bereits – prüfe deine E-Mails (Login-ID).</string>
+
+    <string name="brevets25">Brevets 2025</string>
+
+    <!-- Filter -->
+    <string name="filter_status">Status</string>
+    <string name="filter_year">Jahr</string>
+    <string name="filter_status_all">Alle</string>
+    <string name="filter_status_open">Open</string>
+    <string name="filter_status_ended">Ended</string>
+
+    <!-- Array für Status-Spinner -->
+    <string-array name="filter_status_values">
+        <item>@string/filter_status_all</item>
+        <item>@string/filter_status_open</item>
+        <item>@string/filter_status_ended</item>
+    </string-array>
+
+
+    <!-- ===== NEU für Anmeldung & DNS ===== -->
+    <string name="action_register">Jetzt anmelden</string>
+    <string name="register_success_mail">Anmeldung erfolgreich – E‑Mail mit Zahlungsinfos wurde gesendet.</string>
+
+    <string name="action_dns">Kurzfristig abmelden (DNS)</string>
+    <string name="action_dns_done">Du wurdest für dieses Brevet als DNS eingetragen.</string>
+    <string name="action_dns_failed">Abmeldung fehlgeschlagen</string>
+    <string name="action_dns_no_participant">Kein eigener Starterlisten-Eintrag gefunden.</string>
+
+    <string name="register_reactivated">Anmeldung reaktiviert.</string>
+    <string name="register_failed_fmt">Anmeldung fehlgeschlagen: %1$s</string>
+</resources>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="18dp"
+    app:cardElevation="0dp"
+    app:strokeWidth="2dp"
+    app:strokeColor="#8B0000">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <!-- Titel (Ort) – links -->
+        <TextView
+            android:id="@+id/textCity"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Mödling"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#8B0000"
+            app:layout_constrainedWidth="true"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/cbSelect"
+            app:layout_constraintHorizontal_bias="0" />
+
+        <!-- Auswahl-Häkchen – rechts oben -->
+        <com.google.android.material.checkbox.MaterialCheckBox
+            android:id="@+id/cbSelect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:contentDescription="Auswählen"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <!-- Status-Badge (Open/Ended) – rechts unter Titel -->
+        <TextView
+            android:id="@+id/badgeStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="28dp"
+            android:minWidth="72dp"
+            android:gravity="center"
+            android:paddingStart="14dp"
+            android:paddingEnd="14dp"
+            android:text="Open"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:textSize="13sp"
+            android:background="@drawable/status_pill_open"
+            app:layout_constraintTop_toBottomOf="@id/textCity"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="6dp" />
+
+        <!-- Datum – links unter Titel -->
+        <TextView
+            android:id="@+id/textDate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="25. Mai 2024"
+            android:textSize="16sp"
+            app:layout_constraintTop_toBottomOf="@id/textCity"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/badgeStatus" />
+
+        <!-- Distanz -->
+        <TextView
+            android:id="@+id/textDistance"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="300 km"
+            android:textSize="16sp"
+            app:layout_constraintTop_toBottomOf="@id/textDate"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <!-- Wunschtermin Label – rechts -->
+        <TextView
+            android:id="@+id/labelDesired"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wunschtermin"
+            android:textSize="13sp"
+            android:textColor="#6B6B6B"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@id/badgeStatus"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <!-- Wunschtermin Eingabe – rechts -->
+        <EditText
+            android:id="@+id/etDesiredDate"
+            android:layout_width="140dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="4dp"
+            android:hint="tt.mm.jjjj"
+            android:inputType="date"
+            android:background="@android:drawable/edit_text"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            app:layout_constraintTop_toBottomOf="@id/labelDesired"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <!-- Mit Medaille – unten links -->
+        <com.google.android.material.checkbox.MaterialCheckBox
+            android:id="@+id/cbMedal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mit Medaille"
+            android:layout_marginTop="10dp"
+            app:layout_constraintTop_toBottomOf="@id/textDistance"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.material.card.MaterialCardView>
